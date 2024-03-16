@@ -13,6 +13,8 @@
 		9BE6EE532BA5F33900412E5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE6EE512BA5F33900412E5C /* Main.storyboard */; };
 		9BE6EE552BA5F33D00412E5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE6EE542BA5F33D00412E5C /* Assets.xcassets */; };
 		9BE6EE582BA5F33D00412E5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE6EE562BA5F33D00412E5C /* LaunchScreen.storyboard */; };
+		9BE6EE602BA5FF4300412E5C /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE6EE5F2BA5FF4300412E5C /* EntryViewController.swift */; };
+		9BE6EE622BA5FF6000412E5C /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE6EE612BA5FF6000412E5C /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9BE6EE542BA5F33D00412E5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BE6EE572BA5F33D00412E5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BE6EE592BA5F33D00412E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE6EE5F2BA5FF4300412E5C /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		9BE6EE612BA5FF6000412E5C /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				9BE6EE542BA5F33D00412E5C /* Assets.xcassets */,
 				9BE6EE562BA5F33D00412E5C /* LaunchScreen.storyboard */,
 				9BE6EE592BA5F33D00412E5C /* Info.plist */,
+				9BE6EE5F2BA5FF4300412E5C /* EntryViewController.swift */,
+				9BE6EE612BA5FF6000412E5C /* TaskViewController.swift */,
 			);
 			path = StoryBoardLearningdk;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BE6EE502BA5F33900412E5C /* ViewController.swift in Sources */,
+				9BE6EE602BA5FF4300412E5C /* EntryViewController.swift in Sources */,
+				9BE6EE622BA5FF6000412E5C /* TaskViewController.swift in Sources */,
 				9BE6EE4C2BA5F33900412E5C /* AppDelegate.swift in Sources */,
 				9BE6EE4E2BA5F33900412E5C /* SceneDelegate.swift in Sources */,
 			);
