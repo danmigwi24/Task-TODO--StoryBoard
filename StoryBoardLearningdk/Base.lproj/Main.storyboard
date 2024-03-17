@@ -95,9 +95,26 @@
                     <view key="view" contentMode="scaleToFill" id="9SG-Hp-zq1">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPO-oS-TQL">
+                                <rect key="frame" x="12" y="71" width="369" height="735"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Fre-rQ-SOU"/>
                         <color key="backgroundColor" systemColor="systemCyanColor"/>
+                        <constraints>
+                            <constraint firstItem="Fre-rQ-SOU" firstAttribute="bottom" secondItem="dPO-oS-TQL" secondAttribute="bottom" constant="12" id="4el-W5-ce3"/>
+                            <constraint firstItem="dPO-oS-TQL" firstAttribute="top" secondItem="Fre-rQ-SOU" secondAttribute="top" constant="12" id="fzI-CY-eir"/>
+                            <constraint firstItem="Fre-rQ-SOU" firstAttribute="trailing" secondItem="dPO-oS-TQL" secondAttribute="trailing" constant="12" id="pAt-Wj-7XX"/>
+                            <constraint firstItem="dPO-oS-TQL" firstAttribute="leading" secondItem="Fre-rQ-SOU" secondAttribute="leading" constant="12" id="rgh-fM-6Yb"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="dPO-oS-TQL" id="3CG-GZ-Fob"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GXz-Ac-Fek" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

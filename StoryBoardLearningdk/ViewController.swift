@@ -15,6 +15,10 @@ import UIKit
  git branch -M main
  git remote add origin https://github.com/danmigwi24/Task-TODO--StoryBoard.git
  git push -u origin main
+ 
+ git add .
+ git commit -m "first commit"
+ git push
  */
 
 class ViewController: UIViewController {
@@ -73,6 +77,7 @@ extension ViewController:UITableViewDelegate{
         //
         let vc = storyboard?.instantiateViewController(withIdentifier: "task") as! TaskViewController
         vc.title = "Task"
+        vc.task = tasks[indexPath.row]
         navigationController?.pushViewController(vc, animated: true)
     }
 }
